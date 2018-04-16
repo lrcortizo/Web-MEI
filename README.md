@@ -1,2 +1,3 @@
-# Web-MEI-JQueryMobile
-Master of Computer Engineering Website using JQuery Mobile
+# Web-MEI
+#### Internet Systems and Services - Master degree in Computer Engineering
+Master of Computer Engineering Website
