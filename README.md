@@ -1,3 +1,3 @@
 # Web-MEI
 #### Internet Systems and Services - Master degree in Computer Engineering
-Master of Computer Engineering Website
+Master in Computer Engineering Website
