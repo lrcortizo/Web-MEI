@@ -1,0 +1,881 @@
+@charset "UTF-8";
+/* CSS Document
+ * Hoja de estilos para web del Máster MEI
+ * Autor: Jose Luis Martínez Orge
+ * Junio 2012
+ *
+ */
+
+/* estilos para la cabecera */
+
+#header {
+  width: 100%;
+  height: 78px;
+  background-color: #f01887;
+  position: fixed;
+  /* sombra para la cabecera
+	-webkit-box-shadow: 0px 3px 6px rgba(35, 37, 35, 0.40);
+	-moz-box-shadow:    0px 3px 6px rgba(35, 37, 35, 0.40);
+	box-shadow:         0px 3px 6px rgba(35, 37, 35, 0.40);
+	*/
+}
+
+#contentHeader {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  float: left;
+}
+
+.md-hamb {
+  display: none;
+}
+
+#menu {
+  float: left;
+}
+
+#menu ul {
+  margin-top: 28px;
+}
+
+#menu ul li {
+  display: inline;
+  padding-left: 16px;
+}
+
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited {
+  font-family: 'AmaranthRegular', Arial;
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+}
+
+#menu ul li a:hover {
+  color: #000;
+}
+
+.pulsado {
+  color: #000 !important;
+  /* si se desea flecha negra
+	background-image: url(../imagenes/flecha_menu.png);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+	padding-bottom:20px;
+	*/
+  /* con flecha rosa inferior */
+  background-image: url(../imagenes/flecha_menu_rosa2.png);
+  background-repeat: no-repeat;
+  background-position: center 46px;
+  padding-bottom: 50px;
+}
+
+#logoUVigo {
+  float: right;
+}
+
+/* estilos para las secciones */
+
+#principal {
+  width: 100%;
+  background-image: url(../imagenes/circulos.png);
+}
+
+#informacion {
+  width: 100%;
+  background-image: url(../imagenes/circulos.png);
+  border-top: 2px dashed #333;
+}
+
+#plan {
+  width: 100%;
+  background-image: url(../imagenes/circulos.png);
+  border-top: 2px dashed #333;
+}
+
+#horarios {
+  width: 100%;
+  background-image: url(../imagenes/circulos.png);
+  border-top: 2px dashed #333;
+}
+
+#docentes {
+  width: 100%;
+  background-image: url(../imagenes/circulos.png);
+  border-top: 2px dashed #333;
+}
+
+#faq {
+  width: 100%;
+  background-image: url(../imagenes/circulos.png);
+  border-top: 2px dashed #333;
+}
+
+#contacto {
+  width: 100%;
+  background-image: url(../imagenes/fondo_contacto.png);
+  border-top: 2px dashed #333;
+  height: 525px;
+}
+
+.seccion {
+  width: 940px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.seccion h2 {
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 32px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #f01887;
+  padding-bottom: 12px;
+}
+
+.entradilla {
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+
+/* estilos para sección principal */
+
+#sloganMaster {
+  width: 550px;
+  float: left;
+}
+
+#infoPrincipal {
+  width: 380px;
+  float: right;
+}
+
+/* estilos para sección de docentes */
+
+.infoGeneral {
+  float: left;
+  width: 460px;
+}
+
+.imagenDocentes {
+  float: right;
+  margin-top: -100px;
+}
+
+.infoDocente {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 220px;
+  float: left;
+  margin-right: 10px;
+  height: 360px;
+  color: #333;
+  border-bottom: 1px solid #666;
+  overflow: hidden;
+}
+
+.nolinea {
+  border-bottom: none;
+}
+
+.infoDocente .nombre {
+  font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
+  color: #f01887;
+  padding-bottom: 8px;
+}
+
+.infoDocente a:link, a:visited, a:active {
+  color: #333;
+}
+
+.infoDocente a:hover {
+  color: #f3c;
+}
+
+.iconoContacto {
+  padding-right: 6px;
+  padding-bottom: 2px;
+}
+
+.infoDocente a.email:active, a.email:visited, a.email:link {
+  text-decoration: none;
+}
+
+.infoDocente a.email:hover {
+  text-decoration: underline;
+}
+
+.infoDocente a.phone:active, a.phone:visited, a.phone:link {
+  text-decoration: none;
+}
+
+.infoDocente a.phone:hover {
+  text-decoration: none;
+  color: #333;
+  cursor: default;
+}
+
+/* estilos para la sección de plan de estudios */
+
+.curso1 {
+  width: 620px;
+  margin-right: 10px;
+  float: left;
+}
+
+.curso2 {
+  width: 300px;
+  float: right;
+}
+
+.curso1 h3, .curso2 h3 {
+  border-bottom: 2px solid #f01887;
+  font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  color: #f01887;
+  margin-bottom: 8px;
+}
+
+.s1 {
+  width: 300px;
+  margin-right: 10px;
+  float: left;
+}
+
+.s2 {
+  width: 300px;
+  margin-right: 0px;
+  float: right;
+}
+
+h4 {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.asignatura p {
+  padding-bottom: 12px;
+}
+
+.asignatura h3 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 6px;
+}
+
+#plan a {
+  text-decoration: none;
+  color: #333;
+}
+
+#plan a:hover {
+  text-decoration: none;
+  color: #f01887;
+}
+
+#plan .info {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.destacado {
+  background-color: #6F3;
+   !important;
+}
+
+.navMaterias {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+/* estilos para seccion de horarios */
+
+.horario {
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  display: none;
+}
+
+.enlaceHorario {
+  text-decoration: none;
+}
+
+.infoHorarios {
+  float: right;
+  width: 460px;
+  text-align: right;
+}
+
+.imagenHorarios {
+  float: left;
+  margin-top: -100px;
+}
+
+table {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diasSemana {
+  font-family: 'PTSansBold', Arial, Helvetica, sans;
+}
+
+.clase {
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+  color: #333;
+}
+
+.semestre {
+  color: #f01887;
+}
+
+/* estilos para sección de información principal */
+
+.infoPrincipal {
+  float: right;
+  width: 460px;
+  text-align: right;
+}
+
+.imagenPrincipal {
+  float: left;
+  margin-top: -100px;
+}
+
+.admision {
+  width: 620px;
+  margin-right: 10px;
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  float: left;
+}
+
+.admision h3 {
+  font-weight: normal;
+  font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #f01887;
+  padding-bottom: 6px;
+}
+
+.condiciones {
+  width: 300px;
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  float: right;
+}
+
+.condiciones h3 {
+  font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+#informacion ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  list-style-image: url(../imagenes/flecha2.gif);
+}
+
+#informacion ul li {
+  padding-left: 18px;
+  padding-top: 4px;
+}
+
+#informacion p {
+  padding-bottom: 6px;
+}
+
+#informacion a {
+  text-decoration: none;
+  color: #333;
+}
+
+#informacion a:hover {
+  text-decoration: underline;
+  color: #f01887;
+}
+
+/* estilos para la información de portada */
+
+.intro {
+  width: 280px;
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  float: right;
+  padding-bottom: 12px;
+}
+
+.bloquePortada {
+  width: 220px;
+  float: left;
+  margin-right: 10px;
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.bloquePortada a {
+  text-decoration: none;
+  color: #333;
+}
+
+.bloquePortada a:hover {
+  text-decoration: underline;
+  color: #f01887;
+}
+
+.bloquePortada h3 {
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #f01887;
+  padding-bottom: 8px;
+}
+
+.btnPreinscricion {
+  margin-left: 30px;
+  background-color: #B8D30B;
+  display: inline-block;
+  text-align: center;
+  padding: 9px 30px 9px;
+  color: #fff;
+  ;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'PTSansBold', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+a.btnPreinscricion {
+  color: #fff;
+}
+
+a.btnPreinscricion:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* estilos para seccion de FAQ */
+
+.infoFAQ {
+  float: right;
+  width: 560px;
+  text-align: right;
+}
+
+.bloqueFAQ {
+  clear: both;
+  padding-bottom: 100px;
+}
+
+#faq {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#faq a {
+  text-decoration: none;
+  color: #333;
+}
+
+#faq a:hover {
+  color: #f01887;
+}
+
+.faq1, .faq2, .faq3 {
+  display: block;
+}
+
+/* estilos para seccion de contacto */
+
+.infoContacto {
+  float: left;
+  width: 560px;
+}
+
+.infoContacto h2 {
+  color: #FF6;
+}
+
+.infoContacto p {
+  color: #fff;
+  padding-bottom: 6px;
+}
+
+.infoContacto a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.infoContacto a:hover {
+  color: #ff6;
+  text-decoration: underline;
+}
+
+.logosTecno {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 42px;
+  width: 909px;
+}
+
+/* clear para floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* hamburguer navigation */
+
+.site-nav {
+  display: none;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+nav ul.opening {
+  display: block;
+  height: 30px;
+}
+
+nav li {
+  border: 1px solid #f6f4e2;
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+
+nav a {
+  color: #EBEBD3;
+  background-color: #f01887;
+  display: block;
+  padding: 1.5em 4em 1.5em 3em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+  background: #ac1161;
+}
+
+.site-nav--icon {
+  font-size: 1.4em;
+  margin-right: 1em;
+  width: 1.1em;
+  text-align: right;
+  color: rgba(255, 255, 255, .4);
+}
+
+/* menu toggle */
+
+.menu-toggle {
+  position: absolute;
+  padding: 0.8em;
+  top: 1em;
+  right: .5em;
+  cursor: pointer;
+}
+
+.hamburger, .hamburger::before, .hamburger::after {
+  content: '';
+  display: block;
+  background: #EBEBD3;
+  height: 3px;
+  width: 2em;
+  border-radius: 3px;
+  -webkit-transition: all ease-in-out 350ms;
+  transition: all ease-in-out 350ms;
+}
+
+.hamburger::before {
+  -webkit-transform: translateY(-7px);
+  transform: translateY(-7px);
+}
+
+.hamburger::after {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+
+.open .hamburger {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.open .hamburger::before {
+  display: none;
+}
+
+.open .hamburger::after {
+  -webkit-transform: translateY(-1px) rotate(-90deg);
+  transform: translateY(-1px) rotate(-90deg);
+}
+
+/* RESPONSIVE */
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+@media screen and (max-width:400px) {
+  .seccion {
+    width: 95%;
+  }
+  .logosTecno {
+    width: 100%;
+  }
+  .logosTecno img {
+    width: 100%;
+  }
+  .bloqueFAQ {
+    width: 100%;
+  }
+  .bloqueFAQ img {
+    width: 100%;
+  }
+  #logo {
+    display: none;
+  }
+  .imagenHorarios {
+    display: none;
+  }
+  .imagenDocentes {
+    display: none;
+  }
+  #sloganMaster {
+    display: none;
+  }
+  .admision {
+    width: 100%;
+  }
+  #infoPrincipal {
+    width: 100%;
+  }
+  #infoPrincipal img {
+    width: 100%;
+  }
+  .intro {
+    width: 100%;
+  }
+  .entradilla {
+    width: 100%;
+  }
+  .condiciones {
+    width: 100%;
+  }
+  .infoPrincipal {
+    width: 100%;
+  }
+  .infoGeneral {
+    width: 100%;
+  }
+  .infoHorarios {
+    width: 100%;
+  }
+  .infoContacto {
+    width: 100%;
+  }
+  .infoFAQ {
+    width: 100%;
+  }
+  .curso1 {
+    width: 100%;
+  }
+  .s1 {
+    width: 100%;
+  }
+  .s2 {
+    float: left;
+    width: 100%;
+  }
+  .curso2 {
+    float: left;
+    width: 100%;
+  }
+  .seccion table {
+    display: none;
+  }
+  .horario {
+    display: inline;
+  }
+  #menu {
+    display: none;
+  }
+  .site-nav {
+    display: inline-block;
+  }
+  #faq {
+    display: none;
+  }
+}
+
+@media screen and (min-width:401px) and (max-width:650px) {
+  .seccion {
+    width: 95%;
+  }
+  .logosTecno {
+    width: 100%;
+  }
+  .logosTecno img {
+    width: 100%;
+  }
+  .bloqueFAQ {
+    width: 100%;
+  }
+  .bloqueFAQ img {
+    width: 100%;
+  }
+  #logo {
+    display: none;
+  }
+  .imagenHorarios {
+    display: none;
+  }
+  .imagenDocentes {
+    display: none;
+  }
+  #sloganMaster {
+    width: 100%;
+  }
+  #sloganMaster img {
+    width: 100%;
+  }
+  .admision {
+    width: 100%;
+  }
+  .entradilla {
+    width: 100%;
+  }
+  .infoGeneral {
+    width: 100%;
+  }
+  .infoHorarios {
+    width: 100%;
+  }
+  .infoContacto {
+    width: 100%;
+  }
+  .infoFAQ {
+    width: 100%;
+  }
+  .curso1 {
+    width: 100%;
+  }
+  .curso1 .s2 {
+    float: left;
+  }
+  .curso2 {
+    float: left;
+  }
+  .seccion table {
+    display: none;
+  }
+  .horario {
+    display: inline;
+  }
+  #menu {
+    display: none;
+  }
+  .site-nav {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width:651px) and (max-width:799px) {
+  .seccion {
+    width: 95%;
+  }
+  .logosTecno {
+    width: 100%;
+  }
+  .logosTecno img {
+    width: 100%;
+  }
+  .bloqueFAQ {
+    width: 100%;
+  }
+  .bloqueFAQ img {
+    width: 100%;
+  }
+  .seccion table {
+    width: 100%;
+  }
+  #logo {
+    display: none;
+  }
+  #logoUVigo {
+    display: none;
+  }
+}
+
+@media screen and (min-width:800px) {
+  #header {
+    width: 100%;
+  }
+  #contentHeader {
+    width: 100%;
+  }
+  .seccion {
+    width: 69.5%;
+  }
+  .logosTecno {
+    width: 100%;
+  }
+  .logosTecno img {
+    width: 100%;
+  }
+  .bloqueFAQ {
+    width: 100%;
+  }
+  .bloqueFAQ img {
+    width: 100%;
+  }
+  .seccion table {
+    width: 100%;
+  }
+}
