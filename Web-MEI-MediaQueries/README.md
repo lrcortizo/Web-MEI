@@ -1,2 +1,2 @@
 # Web-MEI
-Master in Computer Engineering Website using CSS Media Queries
+Master in Computer Engineering Front-end Website using CSS Media Queries
