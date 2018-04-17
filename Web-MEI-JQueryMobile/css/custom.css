@@ -1,7 +1,17 @@
+h2 {
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 32px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #f01887;
+  padding-bottom: 12px;
+}
+
 #sloganMaster {
   height: 323px;
   float:left;
-
 }
 
 #imagenSlogan {
@@ -68,6 +78,21 @@
   border: none;
 }
 
+.infoPrincipal {
+  float: right;
+  width: 100%;
+  text-align: right;
+}
+
+.entradilla {
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+}
+
 a.btnPreinscricion {
   color: #fff;
 }
@@ -76,6 +101,60 @@ a.btnPreinscricion:hover {
   color: #000;
   text-decoration: none;
 }
+
+.admision {
+  width: 620px;
+  margin-right: 10px;
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  float: left;
+}
+
+.admision h3 {
+  font-weight: normal;
+  font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #f01887;
+  padding-bottom: 6px;
+}
+
+.condiciones {
+  width: 300px;
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  float: right;
+}
+
+.condiciones h3 {
+  font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+#informacion ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  list-style-image: url(../imagenes/flecha2.gif);
+}
+
+#informacion ul li {
+  padding-left: 18px;
+  padding-top: 4px;
+}
+
+#informacion p {
+  padding-bottom: 6px;
+}
+
+#informacion a {
+  text-decoration: none;
+  color: #333;
+}
+
+#informacion a:hover {
+  text-decoration: underline;
+  color: #f01887;
 
 @media all and (max-width: 40em) {
   #sloganMaster {
@@ -97,9 +176,9 @@ a.btnPreinscricion:hover {
     float: none;
   }
 
-  .my-breakpoint.ui-grid-c .ui-block-a,
-  .my-breakpoint.ui-grid-c .ui-block-b,
-  .my-breakpoint.ui-grid-c .ui-block-c {
+  .my-breakpoint.ui-grid-f .ui-block-a,
+  .my-breakpoint.ui-grid-f .ui-block-b,
+  .my-breakpoint.ui-grid-f .ui-block-c {
     width: 100%;
     float: none;
   }
@@ -120,9 +199,9 @@ a.btnPreinscricion:hover {
     width: 25%;
   }
 
-  .my-breakpoint.ui-grid-c .ui-block-a,
-  .my-breakpoint.ui-grid-c .ui-block-b,
-  .my-breakpoint.ui-grid-c .ui-block-c {
+  .my-breakpoint.ui-grid-f .ui-block-a,
+  .my-breakpoint.ui-grid-f .ui-block-b,
+  .my-breakpoint.ui-grid-f .ui-block-c {
     width: 33%;
   }
 }
