@@ -1,0 +1,128 @@
+#sloganMaster {
+  height: 323px;
+  float:left;
+
+}
+
+#imagenSlogan {
+  width: 100%;
+}
+
+#infoPrincipal {
+  float: right;
+  width: 100%;
+}
+
+#imagenPrincipal {
+  float: right;
+  max-width: 100%;
+}
+
+.intro {
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  float: right;
+  padding-bottom: 12px;
+  font-weight: bold;
+}
+
+.bloquePortada {
+  width: 100%;
+  float: left;
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.bloquePortada a {
+  text-decoration: none;
+  color: #333;
+}
+
+.bloquePortada a:hover {
+  text-decoration: underline;
+  color: #f01887;
+}
+
+.bloquePortada h3 {
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #f01887;
+  padding-bottom: 8px;
+}
+
+.btnPreinscricion {
+  margin-left: 30px;
+  background-color: #B8D30B;
+  display: inline-block;
+  text-align: center;
+  padding: 9px 30px 9px;
+  color: #fff;
+  ;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'PTSansBold', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+a.btnPreinscricion {
+  color: #fff;
+}
+
+a.btnPreinscricion:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+@media all and (max-width: 40em) {
+  #sloganMaster {
+    display: none;
+  }
+
+  .my-breakpoint.ui-grid-a .ui-block-a,
+  .my-breakpoint.ui-grid-a .ui-block-b,
+  .my-breakpoint.ui-grid-a .ui-block-c {
+    width: 100%;
+    float: none;
+  }
+
+  .my-breakpoint.ui-grid-b .ui-block-a,
+  .my-breakpoint.ui-grid-b .ui-block-b,
+  .my-breakpoint.ui-grid-b .ui-block-c,
+  .my-breakpoint.ui-grid-b .ui-block-d {
+    width: 100%;
+    float: none;
+  }
+
+  .my-breakpoint.ui-grid-c .ui-block-a,
+  .my-breakpoint.ui-grid-c .ui-block-b,
+  .my-breakpoint.ui-grid-c .ui-block-c {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media all and (min-width: 45em) {
+
+  .my-breakpoint.ui-grid-a .ui-block-a,
+  .my-breakpoint.ui-grid-a .ui-block-b,
+  .my-breakpoint.ui-grid-a .ui-block-c {
+    width: 50%;
+  }
+
+  .my-breakpoint.ui-grid-b .ui-block-a,
+  .my-breakpoint.ui-grid-b .ui-block-b,
+  .my-breakpoint.ui-grid-b .ui-block-c,
+  .my-breakpoint.ui-grid-b .ui-block-d {
+    width: 25%;
+  }
+
+  .my-breakpoint.ui-grid-c .ui-block-a,
+  .my-breakpoint.ui-grid-c .ui-block-b,
+  .my-breakpoint.ui-grid-c .ui-block-c {
+    width: 33%;
+  }
+}
