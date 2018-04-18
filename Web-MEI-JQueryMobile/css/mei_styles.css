@@ -9,6 +9,8 @@ h2 {
   padding-bottom: 12px;
 }
 
+/*Principal*/
+
 #sloganMaster {
   height: 323px;
   float:left;
@@ -102,6 +104,8 @@ a.btnPreinscricion:hover {
   text-decoration: none;
 }
 
+/*Informacion*/
+
 .admision {
   font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -154,11 +158,26 @@ a.btnPreinscricion:hover {
   color: #f01887;
 }
 
+/*Plan de estudios*/
+.infoGeneral {
+	float:left;
+  width: 100%;
+  text-align: left;
+}
+
+.navMaterias {
+	font-family:'PTSansRegular',Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	padding-bottom:12px;
+	padding-top:12px;
+}
+
 .infoDocente {
 	font-family:'PTSansRegular', Arial, Helvetica, sans-serif;
 	font-size:12px;
 	float:left;
-	height:360px;
+	height:200px;
 	color:#333;
 	overflow:hidden;
 }
