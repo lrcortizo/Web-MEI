@@ -126,7 +126,7 @@ a.btnPreinscricion:hover {
 
 .condiciones h3 {
   font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #informacion ul {
@@ -153,6 +153,35 @@ a.btnPreinscricion:hover {
   text-decoration: underline;
   color: #f01887;
 }
+
+.infoDocente {
+	font-family:'PTSansRegular', Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float:left;
+	height:360px;
+	color:#333;
+	overflow:hidden;
+}
+
+.infoDocente .nombre {
+	font-family:'PTSansBold', Arial, Helvetica, sans-serif;
+	color:#f01887;
+	padding-bottom:8px;
+}
+
+.infoDocente a:link, a:visited, a:active {
+	color:#333;
+}
+
+.infoDocente a:hover {
+	color:#f3c;
+}
+
+.infoDocente a.email:active, a.email:visited, a.email:link { text-decoration:none; }
+.infoDocente a.email:hover { text-decoration:underline; }
+
+.infoDocente a.phone:active, a.phone:visited, a.phone:link { text-decoration:none; }
+.infoDocente a.phone:hover { text-decoration:none; color:#333; cursor:default; }
 
 @media all and (max-width: 45em) {
   #sloganMaster {
