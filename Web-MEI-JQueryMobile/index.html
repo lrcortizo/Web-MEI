@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="css/mei_styles.css" />
 	<link rel="stylesheet" href="themes/custom.min.css" />
 	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.5.min.css" />
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
@@ -269,7 +269,8 @@
 									<p>Unha boa parte da facturación das empresas TIC galegas provén dos contratos con administracións públicas e grandes empresas acadados mediante os procesos de licitación pública ou privada. Actualmente, para plantexar con éxito unha oferta neste
 										tipo de procesos é necesario implementar metodoloxías de calidade dos procesos e contar con certificacións dos mesmos xa que é habitual que formen parte dos requisitos de participación ou dos criterios de avaliación das ofertas.</p>
 									<p>Esta materia conten a formación para que o alumno entenda a necesidade da calidade nos procesos e a súa implantación sendo posible a amplicación da formación neste ámbito cursando o módulo de Calidade de Procesos e Servizos Informáticos do segundo
-										curso.</p>
+										curso.
+									</p>
 								</div>
 								<div class="asignatura modulo2" title="Auditoría e xestión da seguridade">
 									<p>Con certa frecuencia, a prensa fainos partícipes de incidencias informáticas polas que é posible ser víctima roubos ou enganos.</p>
@@ -322,11 +323,80 @@
 				<div class="ui-block-a">
 					<div class="ui-body ui-body-d">
 						<p class="info"><img src="imagenes/link.png" width="9" height="9" class="iconoContacto"><a href="http://www.esei.uvigo.es/index.php?id=273" target="_blank">Toda a información do plan de estudios completa e ampliada pode consultala na sección do Máster da web da E.S. de Enxeñería Informática</a></p>
-			      <br><br>
-			      <div class="logosTecno"><img id="imagenTecno" src="imagenes/logos_tecno.png"></div>
+						<br><br>
+						<div class="logosTecno"><img id="imagenTecno" src="imagenes/logos_tecno.png"></div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div data-role="page" data-theme="a" id="horarios">
+		<div data-role="header" data-position="inline">
+			<h1>HORARIOS</h1>
+		</div>
+		<div data-role="content">
+			<div class="ui-solo-grid">
+				<div class="ui-block-a">
+					<div class="ui-body ui-body-d">
+						<div class="infoHorarios">
+							<h2>UN HORARIO<br>UNIFORME</h2>
+							<p class="entradilla">Para que o máximo número de estudiantes ou profesionais que desexen realizar os estudos de máster poidan compatibilizalo con outras actividades que esten desenvolvendo.</p><br><br>
+						</div>
+					</div>
+				</div>
+			</div>
+			<table data-role="table" id="temp-table" data-mode="reflow" class="ui-responsive table-stroke">
+				<thead class="diasSemana">
+					<th><span class="semestre">CUADRIMESTRE 1</span></th>
+					<th>LUNS</th>
+					<th>MARTES</th>
+					<th>MÉRCORES</th>
+					<th>XOVES</th>
+					<th>VENRES</th>
+				</thead>
+				<tr>
+          <th>17:00-20:30</th>
+          <td class="clase">DESEÑO E XESTIÓN AVANZADA DE REDES</td>
+          <td class="clase">ENXEÑERÍA DO COÑECEMENTO</td>
+          <td class="clase">SISTEMAS DE INFORMACIÓN</td>
+          <td class="clase">PLANIFICACIÓN E DIRECCIÓN DE PROXECTOS</td>
+          <td class="clase">SISTEMAS GRÁFICOS INTERACTIVOS</td>
+        </tr>
+			</table><br/>
+			<table data-role="table" id="temp-table2" data-mode="reflow" class="ui-responsive table-stroke">
+				<thead class="diasSemana">
+					<th><span class="semestre">CUADRIMESTRE 2</span></th>
+					<th>LUNS</th>
+					<th>MARTES</th>
+					<th>MÉRCORES</th>
+					<th>XOVES</th>
+					<th>VENRES</th>
+				</thead>
+				<tr>
+					<th>17:00-20:30</th>
+					<td class="clase">SISTEMAS E SERVICIOS DE INTERNET</td>
+					<td class="clase">AUDITORÍA E CERTIFICACIÓN DA CALIDADE DE SISTEMAS DE INFORMACIÓN</td>
+					<td class="clase">COMPUTACIÓN DISTRIBUÍDA E ALTAS PRESTACIÓNS</td>
+					<td class="clase">DIRECCIÓN E XESTIÓN DA INNOVACIÓN</td>
+					<td class="clase">AUDITORÍA E XESTIÓN DA SEGURIDADE</td>
+				</tr>
+			</table><br/>
+			<table data-role="table" id="temp-table3" data-mode="reflow" class="ui-responsive table-stroke">
+				<thead class="diasSemana">
+					<th><span class="semestre">CUADRIMESTRE 3</span></th>
+					<th>LUNS</th>
+					<th>MARTES</th>
+					<th>MÉRCORES</th>
+					<th>XOVES</th>
+				</thead>
+				<tr>
+					<th>17:00-20:30</th>
+					<td class="clase">ADMINISTRACIÓN AVANZADA DE SISTEMAS</td>
+					<td class="clase">DIRECCIÓN DAS TECNOLOXÍAS DA INFORMACIÓN</td>
+					<td class="clase">INTEGRACIÓN DE SISTEMAS E REDES</td>
+					<td class="clase">XESTIÓN OPERATIVA DAS TECNOLOXÍAS DA INFORMACIÓN</td>
+				</tr>
+			</table>
 		</div>
 	</div>
 	<div data-role="page" data-theme="a" id="docentes">
@@ -334,7 +404,7 @@
 			<h1>DOCENTES</h1>
 		</div>
 		<div data-role="content">
-			<div class="ui-grid-f my-breakpoint">
+			<div class="ui-grid-e my-breakpoint">
 				<div class="ui-block-a">
 					<div class="ui-body ui-body-d">
 						<div class="infoDocente">
@@ -491,6 +561,19 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div data-role="page" data-theme="a" id="contacto">
+		<div data-role="header" data-position="inline">
+			<h1>CONTACTO</h1>
+		</div>
+		<div data-role="content">
+			<div class="infoContacto">
+				<h2>COORDINADOR</h2>
+				<p class="entradilla">Jose Ramón Méndez Reboredo<br>Profesor Contratado Doctor do Departamento de Informática<br>Universidade de Vigo<br><br>Tlfno 647 343 110:<br><a href="mailto:coordinador.mei.esei@uvigo.es">email: coordinador.mei.esei@uvigo.es</a></p><br><br>
+				<p class="entradilla"><a href="http://master.enxeñeriainformatica.es" target="blank">http://master.enxeñeriainformatica.es</a><br><a href="http://www.esei.uvigo.es/index.php?id=368" target="blank">http://www.esei.uvigo.es/index.php?id=368</a><br><a href="http://www.esei.uvigo.es"
+						target="blank">http://www.esei.uvigo.es</a><br><br><br></p>
 			</div>
 		</div>
 	</div>

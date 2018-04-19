@@ -22,3 +22,6 @@
 [0419/123416.840:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Yeahseed\Reports\Dump: El sistema no puede encontrar la ruta especificada. (0x3)
 [0419/123416.856:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
 [0419/123416.856:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Yeahseed\Reports\Dump: El sistema no puede encontrar la ruta especificada. (0x3)
+[0419/232800.975:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Yeahseed\Reports\Dump: El sistema no puede encontrar la ruta especificada. (0x3)
+[0419/232800.977:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0419/232800.978:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Yeahseed\Reports\Dump: El sistema no puede encontrar la ruta especificada. (0x3)

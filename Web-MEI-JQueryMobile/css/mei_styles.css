@@ -251,7 +251,6 @@ a.btnPreinscricion:hover {
   font-size: 12px;
 }
 
-
 #plan h4 {
   font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -267,6 +266,39 @@ a.btnPreinscricion:hover {
 
 #imagenTecno {
   width: 100%;
+}
+
+/*Horarios*/
+
+.infoHorarios {
+  float: right;
+  width: 100%;
+  text-align: right;
+}
+
+table {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+.diasSemana {
+  font-family: 'PTSansBold', Arial, Helvetica, sans;
+}
+
+.clase {
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+  color: #333;
+}
+
+.semestre {
+  color: #f01887;
 }
 
 /*Docentes*/
@@ -312,6 +344,32 @@ a.btnPreinscricion:hover {
   cursor: default;
 }
 
+/* Contacto */
+
+.infoContacto {
+  float: left;
+  width: 100%;
+}
+
+.infoContacto h2 {
+  color: #f01887;
+}
+
+.infoContacto p {
+  color: #333;
+  padding-bottom: 6px;
+}
+
+.infoContacto a {
+  text-decoration: none;
+  color: #333;
+}
+
+.infoContacto a:hover {
+  color: #f01887;
+  text-decoration: underline;
+}
+
 @media all and (max-width: 45em) {
   #sloganMaster {
     display: none;
@@ -335,7 +393,7 @@ a.btnPreinscricion:hover {
     width: 100%;
     float: none;
   }
-  .my-breakpoint.ui-grid-f .ui-block-a, .my-breakpoint.ui-grid-f .ui-block-b, .my-breakpoint.ui-grid-f .ui-block-c {
+  .my-breakpoint.ui-grid-e .ui-block-a, .my-breakpoint.ui-grid-e .ui-block-b, .my-breakpoint.ui-grid-e .ui-block-c {
     width: 100%;
     float: none;
   }
@@ -354,7 +412,7 @@ a.btnPreinscricion:hover {
   .my-breakpoint.ui-grid-d .ui-block-a, .my-breakpoint.ui-grid-d .ui-block-b, .my-breakpoint.ui-grid-d .ui-block-c {
     width: 33%;
   }
-  .my-breakpoint.ui-grid-f .ui-block-a, .my-breakpoint.ui-grid-f .ui-block-b, .my-breakpoint.ui-grid-f .ui-block-c {
+  .my-breakpoint.ui-grid-e .ui-block-a, .my-breakpoint.ui-grid-e .ui-block-b, .my-breakpoint.ui-grid-e .ui-block-c {
     width: 33%;
   }
 }
