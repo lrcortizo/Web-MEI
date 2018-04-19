@@ -18,12 +18,6 @@ h2 {
   padding-bottom: 12px;
 }
 
-h4 {
-  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 11px;
-}
-
 /*Principal*/
 
 #sloganMaster {
@@ -257,6 +251,13 @@ a.btnPreinscricion:hover {
   font-size: 12px;
 }
 
+
+#plan h4 {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+}
+
 .logosTecno {
   margin-left: auto;
   margin-right: auto;
@@ -279,7 +280,7 @@ a.btnPreinscricion:hover {
   overflow: hidden;
 }
 
-.infoDocente .nombre {
+.infoDocente h4 {
   font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
   color: #f01887;
   padding-bottom: 8px;
@@ -315,11 +316,9 @@ a.btnPreinscricion:hover {
   #sloganMaster {
     display: none;
   }
-
   .logosTecno {
     width: 100%;
   }
-
   .my-breakpoint.ui-grid-a .ui-block-a, .my-breakpoint.ui-grid-a .ui-block-b, .my-breakpoint.ui-grid-a .ui-block-c {
     width: 100%;
     float: none;
