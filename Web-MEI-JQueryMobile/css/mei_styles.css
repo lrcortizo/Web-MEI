@@ -1,3 +1,12 @@
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #f3c;
+}
+
 h2 {
   font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -9,11 +18,17 @@ h2 {
   padding-bottom: 12px;
 }
 
+h4 {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+}
+
 /*Principal*/
 
 #sloganMaster {
   height: 323px;
-  float:left;
+  float: left;
 }
 
 #imagenSlogan {
@@ -159,106 +174,188 @@ a.btnPreinscricion:hover {
 }
 
 /*Plan de estudios*/
+
 .infoGeneral {
-	float:left;
+  float: left;
   width: 100%;
   text-align: left;
 }
 
 .navMaterias {
-	font-family:'PTSansRegular',Arial, Helvetica, sans-serif;
-	font-size:12px;
-	color:#333;
-	padding-bottom:12px;
-	padding-top:12px;
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  padding-bottom: 12px;
+  padding-top: 12px;
 }
 
+.entradilla {
+  font-family: 'BreeSerifRegular', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.curso1 {
+  width: 100%;
+  float: left;
+}
+
+.curso2 {
+  width: 100%;
+  float: right;
+}
+
+.curso1 h3, .curso2 h3 {
+  border-bottom: 2px solid #f01887;
+  font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  color: #f01887;
+  margin-bottom: 8px;
+}
+
+.s1 {
+  width: 100%;
+  float: left;
+}
+
+.s2 {
+  width: 100%;
+  float: right;
+}
+
+.asignatura p {
+  padding-bottom: 12px;
+}
+
+.asignatura h3 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 6px;
+}
+
+.destacado {
+  background-color: #6F3;
+   !important;
+}
+
+#plan a {
+  text-decoration: none;
+  color: #333;
+}
+
+#plan a:hover {
+  text-decoration: none;
+  color: #f01887;
+}
+
+#plan .info {
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.logosTecno {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 42px;
+  width: 80%;
+}
+
+#imagenTecno {
+  width: 100%;
+}
+
+/*Docentes*/
+
 .infoDocente {
-	font-family:'PTSansRegular', Arial, Helvetica, sans-serif;
-	font-size:12px;
-	float:left;
-	height:200px;
-	color:#333;
-	overflow:hidden;
+  font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  float: left;
+  height: 200px;
+  color: #333;
+  overflow: hidden;
 }
 
 .infoDocente .nombre {
-	font-family:'PTSansBold', Arial, Helvetica, sans-serif;
-	color:#f01887;
-	padding-bottom:8px;
+  font-family: 'PTSansBold', Arial, Helvetica, sans-serif;
+  color: #f01887;
+  padding-bottom: 8px;
 }
 
 .infoDocente a:link, a:visited, a:active {
-	color:#333;
+  color: #333;
 }
 
 .infoDocente a:hover {
-	color:#f3c;
+  color: #f3c;
 }
 
-.infoDocente a.email:active, a.email:visited, a.email:link { text-decoration:none; }
-.infoDocente a.email:hover { text-decoration:underline; }
+.infoDocente a.email:active, a.email:visited, a.email:link {
+  text-decoration: none;
+}
 
-.infoDocente a.phone:active, a.phone:visited, a.phone:link { text-decoration:none; }
-.infoDocente a.phone:hover { text-decoration:none; color:#333; cursor:default; }
+.infoDocente a.email:hover {
+  text-decoration: underline;
+}
+
+.infoDocente a.phone:active, a.phone:visited, a.phone:link {
+  text-decoration: none;
+}
+
+.infoDocente a.phone:hover {
+  text-decoration: none;
+  color: #333;
+  cursor: default;
+}
 
 @media all and (max-width: 45em) {
   #sloganMaster {
     display: none;
   }
 
-  .my-breakpoint.ui-grid-a .ui-block-a,
-  .my-breakpoint.ui-grid-a .ui-block-b,
-  .my-breakpoint.ui-grid-a .ui-block-c {
+  .logosTecno {
+    width: 100%;
+  }
+
+  .my-breakpoint.ui-grid-a .ui-block-a, .my-breakpoint.ui-grid-a .ui-block-b, .my-breakpoint.ui-grid-a .ui-block-c {
     width: 100%;
     float: none;
   }
-
-  .my-breakpoint.ui-grid-b .ui-block-a,
-  .my-breakpoint.ui-grid-b .ui-block-b,
-  .my-breakpoint.ui-grid-b .ui-block-c,
-  .my-breakpoint.ui-grid-b .ui-block-d {
+  .my-breakpoint.ui-grid-b .ui-block-a, .my-breakpoint.ui-grid-b .ui-block-b, .my-breakpoint.ui-grid-b .ui-block-c, .my-breakpoint.ui-grid-b .ui-block-d {
     width: 100%;
     float: none;
   }
-
-  .my-breakpoint.ui-grid-c .ui-block-a,
-  .my-breakpoint.ui-grid-c .ui-block-b {
+  .my-breakpoint.ui-grid-c .ui-block-a, .my-breakpoint.ui-grid-c .ui-block-b {
     width: 100%;
     float: none;
   }
-
-  .my-breakpoint.ui-grid-f .ui-block-a,
-  .my-breakpoint.ui-grid-f .ui-block-b,
-  .my-breakpoint.ui-grid-f .ui-block-c {
+  .my-breakpoint.ui-grid-d .ui-block-a, .my-breakpoint.ui-grid-d .ui-block-b, .my-breakpoint.ui-grid-d .ui-block-c {
+    width: 100%;
+    float: none;
+  }
+  .my-breakpoint.ui-grid-f .ui-block-a, .my-breakpoint.ui-grid-f .ui-block-b, .my-breakpoint.ui-grid-f .ui-block-c {
     width: 100%;
     float: none;
   }
 }
 
 @media all and (min-width: 45em) {
-
-  .my-breakpoint.ui-grid-a .ui-block-a,
-  .my-breakpoint.ui-grid-a .ui-block-b,
-  .my-breakpoint.ui-grid-a .ui-block-c {
+  .my-breakpoint.ui-grid-a .ui-block-a, .my-breakpoint.ui-grid-a .ui-block-b, .my-breakpoint.ui-grid-a .ui-block-c {
     width: 50%;
   }
-
-  .my-breakpoint.ui-grid-b .ui-block-a,
-  .my-breakpoint.ui-grid-b .ui-block-b,
-  .my-breakpoint.ui-grid-b .ui-block-c,
-  .my-breakpoint.ui-grid-b .ui-block-d {
+  .my-breakpoint.ui-grid-b .ui-block-a, .my-breakpoint.ui-grid-b .ui-block-b, .my-breakpoint.ui-grid-b .ui-block-c, .my-breakpoint.ui-grid-b .ui-block-d {
     width: 25%;
   }
-
-  .my-breakpoint.ui-grid-c .ui-block-a,
-  .my-breakpoint.ui-grid-c .ui-block-b{
+  .my-breakpoint.ui-grid-c .ui-block-a, .my-breakpoint.ui-grid-c .ui-block-b {
     width: 50%;
   }
-
-  .my-breakpoint.ui-grid-f .ui-block-a,
-  .my-breakpoint.ui-grid-f .ui-block-b,
-  .my-breakpoint.ui-grid-f .ui-block-c {
+  .my-breakpoint.ui-grid-d .ui-block-a, .my-breakpoint.ui-grid-d .ui-block-b, .my-breakpoint.ui-grid-d .ui-block-c {
+    width: 33%;
+  }
+  .my-breakpoint.ui-grid-f .ui-block-a, .my-breakpoint.ui-grid-f .ui-block-b, .my-breakpoint.ui-grid-f .ui-block-c {
     width: 33%;
   }
 }
